@@ -7,7 +7,8 @@ const App = () => {
     <div className="App">
       <Container className="mt-5">
         <Row>
-          <Col>
+          <Col md={6}>
+            <h1 className="text-center text-info">Select a Song!</h1>
             <SongList />
           </Col>
         </Row>

@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import { createStore } from "redux";
 
 //imports from within the app
-import App from "./Components/App";
+import App from "./components/App";
 import reducers from "./reducers";
 
 //THIS IS IMPORTANT FOR BOOTSTRAP TO WORK ON ALL COMPONENTS
